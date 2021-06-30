@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * implements hook_theme
+ */
+function drupal_assignment_theme($existing, $type, $theme, $path) {
+  return [
+    'time_for_time_zone' => [
+      'variables' => [
+        'config_data' => NULL,
+      ]
+    ]
+  ];
+}
+

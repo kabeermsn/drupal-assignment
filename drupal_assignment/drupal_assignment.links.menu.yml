@@ -1,0 +1,5 @@
+drupal_assignment.admin_settings_form:  
+  title: 'Admin Configuration Form (Current Time in Timezone)'  
+  route_name: drupal_assignment.admin_config_form 
+  description: 'Manage Time Zone, Country and City'  
+  parent: system.admin_config_development  

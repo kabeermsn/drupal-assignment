@@ -1,0 +1,10 @@
+timezone_management:
+  footer: true
+  js:
+    js/timezone_management.js: { minified: true }
+    https://momentjs.com/downloads/moment-timezone-with-data.js: { external: true, minified: true }
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery.once

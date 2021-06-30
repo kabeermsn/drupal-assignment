@@ -1,0 +1,5 @@
+name: Drupal Assignment
+type: module
+description: Drupal Assignment Module
+package: specbee
+core_version_requirement: ^8 || ^9
